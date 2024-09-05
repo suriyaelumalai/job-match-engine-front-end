@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Job Match Recommendation Engine - Frontend (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend application for the Job Match Recommendation Engine, built using React. The frontend allows users to upload two CSV files (jobseekers and jobs) and view the resulting job recommendations.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+### 1. Clone the repository:
 
-### `npm start`
+```
+git clone https://github.com/yourusername/job-match-frontend.git
+cd job-match-frontend
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+npm install
+```
 
-### `npm test`
+### 3. Start the React development server:
+```
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The app will be available at http://localhost:3000.
 
-### `npm run build`
+### Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ - A Simple UI with two input fields that take Jobseekers CSV and Jobs CSV
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1209" alt="Screenshot 2024-09-05 at 20 10 40" src="https://github.com/user-attachments/assets/dbe99d35-5e08-447b-aeec-4be6ff7eac02">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- If any of the CSV is not given as input then this alert is thrown
 
-### `npm run eject`
+<img width="1433" alt="Screenshot 2024-09-05 at 20 10 30" src="https://github.com/user-attachments/assets/9e8ffd39-2e0e-4dde-bde4-5f3bf32dbd44">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- When both CSVs are given, then the recommendation is printed as a table
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1418" alt="Screenshot 2024-09-05 at 20 10 14" src="https://github.com/user-attachments/assets/8c5e294a-45b6-4a59-89b4-98f5e23e1ca3">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Recommendation table
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="1219" alt="Screenshot 2024-09-05 at 20 09 56" src="https://github.com/user-attachments/assets/03b6ab54-0a70-4399-9051-aa2f12fd2399">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
